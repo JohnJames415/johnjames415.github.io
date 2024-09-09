@@ -1,0 +1,261 @@
+body {
+   margin: 30px 15px 30px 15px; 
+   background-color: #6482AD;
+}
+
+nav {
+    background-color: #7FA1C3;
+    padding: 20px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 30px auto;
+}
+
+nav > p {
+    font-size: 36px;
+    color:#F5EDED;
+    margin: 0 0 0 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 30px auto 30px auto;
+    background-color: #7FA1C3;
+    border-radius: 30px;
+}
+
+.splash {
+    background-color: #7FA1C3;
+    margin: 25px 30px 25px 30px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    margin: 10px 0 10px 0;
+    color: #F5EDED;
+    font-family:"Blinker", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    -webkit-text-stroke: 2px black;
+}
+
+.splash > img {
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+.splash > p {
+    text-align: center;
+    color: #F5EDED;
+    font-size: 24px;
+}
+
+hr {
+    background-color: #7FA1C3;
+    border-width: 0px;
+    border-radius: 5px;
+    height: 10px;
+}
+
+.education_section {
+    background-color:#7FA1C3;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    margin: 0 30px 0 30px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 75px;
+    color: #F5EDED;
+    margin-bottom: 10px;
+    font-family:"Blinker", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    -webkit-text-stroke: 2px black;
+}
+
+.education_section > p {
+    text-align: center;
+    margin: 0 5% 20px;
+    font-size: 24px;
+    color: #F5EDED;
+}
+
+.honors_awards {
+    background-color:#7FA1C3;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    margin: 0 30px 0 30px;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+dl dt {
+    margin: 0 0 0 20px;
+    font-size: 36px;
+    color: #F5EDED;
+}
+
+dl dd {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 0 15%;
+    color: #F5EDED;
+}
+
+.skills {
+    background-color:#7FA1C3;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    margin: 41.5px 30px 0 30px;
+}
+
+ul li {
+    color: #F5EDED;
+    font-size: 36px;
+}
+
+.leadership {
+    background-color:#7FA1C3;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    margin: 0 30px 0 30px;
+}
+
+.projects {
+    margin: 0 30px 100px 30px;
+}
+
+.projects > h2 {
+    background-color:#7FA1C3;
+    border-radius: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 60px;
+}
+
+a {
+    color: rgb(255, 255, 159);
+    text-decoration: none;
+    font-size: 36px;
+    transition: 0.3s
+}
+
+a:hover {
+    color: rgb(255, 255, 0);
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.copyright {
+    font-size: 36px;
+    color: #F5EDED;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: #7FA1C3;
+    border-radius: 20px;
+    box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 30px 45px 0px rgba(0, 0, 0, 0.8);
+}
+
+.card > img {
+    max-width: 350px;
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card > h3 {
+    font-size: 36px;
+    color: #F5EDED;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+.card > ul li {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.one-col > label {
+    color:#F5EDED;
+    margin: 15px 0 5px 0;
+    font-size: 36px;
+    font-family:"Blinker", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    -webkit-text-stroke: 1px black;
+}
+
+.one-col > input {
+    color: #7FA1C3;
+    border-color: #7FA1C3;
+    background-color:#E2DAD6;
+    border-radius: 15px;
+    margin: 15px 0 5px 0;
+    font-size: 36px;
+}
+
+.one-col > textarea {
+    color: #7FA1C3;
+    border-color: #7FA1C3;
+    background-color:#E2DAD6;
+    border-radius: 15px;
+    margin: 15px 0 5px 0;
+    font-size: 36px;
+}
+
+#sub_button {
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: #7FA1C3;
+    color: #F5EDED;
+    transition: 0.3s;
+}
+
+#sub_button:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+.info {
+    text-align: center;
+    color: #F5EDED;
+    font-size: 24px;
+}
+
+.fab {
+    margin-left: 5px;
+}
